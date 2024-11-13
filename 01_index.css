@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    font-family:'Poppins';
+    border:border-box;
+}
+body{
+    /*  charcoal black*/
+    background-color: #101820;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*  yellow */
+    color: #FEE715;
+    height: 6.5vh;
+    margin-left:1.2vh;
+    margin-top:2vh;
+}
+nav h1{
+    color: white;
+}
+.form1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6vw;
+    margin-left: 125vh;
+} 
+  
+.form1 #register{
+    height: 5.5vh;
+    width: 6vw;
+    border: none;
+    background-color: #FEE715;
+    color: #101820;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.form1 #login{
+    height: 5.5vh;
+    width: 6vw;
+    border: none;
+    margin-left: .5vh; 
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #101820;
+    background-color:whitesmoke;
+}
+
+.title{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.input-back{
+    background-color: #FEE715;
+    height: 80vh;
+    width: 100%;
+    margin-top:2vh;
+}
+.form-main{
+    margin-left: 12vw;
+}
+.form-main input{
+    margin-top:5vh;
+    border: none;   
+}
+
+iframe{
+    margin-left: 50%;
+    border: solid #101820;
+    height: 40vh;
+    width: 40vw;
+}
